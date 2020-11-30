@@ -6,7 +6,16 @@
 }
 /*Geral do site*/
 
+body{
+    width: 1080px;
+    margin: 0 auto !important;
+}
+
 /*Header*/
+.cabecalho{
+    width: 1080px;
+
+}
 
 #logo{
     display: block;
@@ -96,3 +105,72 @@ header li a{
 
 
 /*Header*/
+
+/* Main */
+
+/* Carrosel de Lançamentos */
+
+
+
+#lançamentos{
+    clear: both;
+    border: 1px solid red;
+    width: 1080px;
+}
+
+#myCarousel img{
+    width: 760px;
+    margin: 0;
+}
+
+#myCarousel .carousel-caption {
+    left:0;
+	right:0;
+	bottom:0;
+	text-align:left;
+	padding:10px;
+	background:rgba(0, 0, 0, 0);
+    text-shadow:none;
+    width: 720px;
+    height: 120px;
+}
+
+#myCarousel .list-group {
+    position:absolute;
+	top:0;
+    left:720px;
+    background: #222C35;
+    margin: 0;
+    height: 100%;
+    margin-top: 2px;
+    
+}
+#myCarousel .list-group-item {
+	border-radius:0px;
+    cursor:pointer;
+    background: #222C35;
+    border:1px solid #9D8C7B;
+    height: 20%;
+}
+#myCarousel .list-group .active {
+	background:#171e24;	
+}
+#myCarousel .list-group h4{
+    background: none;
+    color: #FFC293;
+    font-size: 1em;
+}
+
+
+@media (min-width: 992px) { 
+	#myCarousel {padding-right:33.3333%;}
+	#myCarousel .carousel-controls {display:none;} 	
+}
+@media (max-width: 991px) { 
+	.carousel-caption p,
+	#myCarousel .list-group {display:none;} 
+}
+
+/* Carrosel de Lançamentos */
+
+/* Main */
