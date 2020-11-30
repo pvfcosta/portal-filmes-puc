@@ -9,14 +9,15 @@
 body{
     width: 1080px;
     margin: 0 auto !important;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 /*Header*/
-.cabecalho{
+div.cabecalho{
     width: 1080px;
+    border: 1px solid #FFC293 !important;
 
 }
-
 #logo{
     display: block;
     float: left;
@@ -112,6 +113,13 @@ header li a{
 /*Header*/
 
 /* Main */
+
+main h1{
+    text-align: center;
+    padding: 0 0 15px 0;
+    color: #FFC293;
+    font-weight: bold;
+}
 
 /* Carrosel de Lançamentos */
 
