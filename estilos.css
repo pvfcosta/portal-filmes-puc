@@ -22,6 +22,7 @@ body{
     float: left;
     width: 120px;
     margin-left: 20px;
+    padding: 20px;
 }
 header img{
     display: block;
@@ -29,19 +30,23 @@ header img{
 }
 header ul{
     float: left;
-    margin-top: 25px;
+    margin-top: 42px;
     margin-left: 100px;
 }
 header nav li{
     display: block;
     float: left;
-    padding: 3px;
+    padding: 5px 10px;
+    border-right: 1px solid #FFC293;
+}
+header nav li.ultimo-item{
+    border-right: none !important;
 }
 
 header li a{
     text-decoration: none;
     font-weight: 900px;
-    color: #9D8C7B;
+    color: #FFC293;
 }
 
 /*Searchbar*/
@@ -49,7 +54,7 @@ header li a{
 .searchbar{
     float: left;
     width: 100px;
-    margin-top: 17px;
+    margin-top: 37px;
     margin-left: 15px;
 }
 
@@ -114,7 +119,6 @@ header li a{
 
 #lançamentos{
     clear: both;
-    border: 1px solid red;
     width: 1080px;
 }
 
