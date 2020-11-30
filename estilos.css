@@ -1,0 +1,98 @@
+/*Geral do site*/
+*{
+    padding: 0px;
+    margin: 0px;
+    background: #222C35;
+}
+/*Geral do site*/
+
+/*Header*/
+
+#logo{
+    display: block;
+    float: left;
+    width: 120px;
+    margin-left: 20px;
+}
+header img{
+    display: block;
+    width: 150px;
+}
+header ul{
+    float: left;
+    margin-top: 25px;
+    margin-left: 100px;
+}
+header nav li{
+    display: block;
+    float: left;
+    padding: 3px;
+}
+
+header li a{
+    text-decoration: none;
+    font-weight: 900px;
+    color: #9D8C7B;
+}
+
+/*Searchbar*/
+
+.searchbar{
+    float: left;
+    width: 100px;
+    margin-top: 17px;
+    margin-left: 15px;
+}
+
+#search {
+    float: right;
+    margin-top: 9px;
+    width: 250px;
+}
+
+.search {
+    padding: 5px 0;
+    width: 230px;
+    height: 30px;
+    position: relative;
+    left: 10px;
+    float: left;
+    line-height: 22px;
+    background: #222c35;
+}
+
+.search input {
+    position: absolute;
+    width: 0px;
+    float: Left;
+    margin-left: 210px;
+    -webkit-transition: all 0.7s ease-in-out;
+    -moz-transition: all 0.7s ease-in-out;
+    -o-transition: all 0.7s ease-in-out;
+    transition: all 0.7s ease-in-out;
+    height: 30px;
+    line-height: 18px;
+    padding: 0 2px 0 2px;
+    border: #9D8C7B solid 1px;
+    border-radius:1px;
+    background: #222c35;
+    color: #F6F7EB;
+}
+
+.search:hover input, .search input:focus {
+    width: 150px;
+    margin-left: 0px;
+}
+
+.btn {
+    height: 30px;
+    position: absolute;
+    right: 0;
+    top: 5px;
+    border-radius:1px;
+}
+
+/*Searchbar*/
+
+
+/*Header*/
