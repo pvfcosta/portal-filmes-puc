@@ -2,7 +2,6 @@
 *{
     padding: 0px;
     margin: 0px;
-    background: #222C35;
 }
 /*Geral do site*/
 
@@ -10,24 +9,22 @@ body{
     width: 1080px;
     margin: 0 auto !important;
     font-family: 'Times New Roman', Times, serif;
+    background: #222C35 !important;
 }
 
 /*Header*/
-div.cabecalho{
+div#cabecalho{
     width: 1080px;
-    border: 1px solid #FFC293 !important;
-
+    height: 140px;
+    border-bottom: 2px solid #FFC293 ;
+    
 }
-#logo{
+#logo img{
     display: block;
     float: left;
-    width: 120px;
-    margin-left: 20px;
+    width: 180px;
+    margin-left: 0px;
     padding: 20px;
-}
-header img{
-    display: block;
-    width: 150px;
 }
 header ul{
     float: left;
@@ -37,7 +34,7 @@ header ul{
 header nav li{
     display: block;
     float: left;
-    padding: 5px 10px;
+    padding: 5px 8px;
     border-right: 1px solid #FFC293;
 }
 header nav li.ultimo-item{
@@ -48,6 +45,7 @@ header li a{
     text-decoration: none;
     font-weight: 900px;
     color: #FFC293;
+    font-size: 1.1em;
 }
 
 /*Searchbar*/
@@ -58,6 +56,17 @@ header li a{
     margin-top: 37px;
     margin-left: 15px;
 }
+
+.searchbar button{
+    background: #FFC293;
+    color: #222C35;
+}
+
+.searchbar button:hover, .searchbar button:focus{
+    background: #222C35;
+    color: #FFC293;
+}
+
 
 #search {
     float: right;
@@ -116,7 +125,7 @@ header li a{
 
 main h1{
     text-align: center;
-    padding: 0 0 15px 0;
+    padding: 20px 0 15px 0;
     color: #FFC293;
     font-weight: bold;
 }
@@ -128,6 +137,8 @@ main h1{
 #lançamentos{
     clear: both;
     width: 1080px;
+    padding-bottom: 40px;
+    border-bottom: 2px solid #FFC293 ;
 }
 
 #myCarousel img{
@@ -141,10 +152,14 @@ main h1{
 	bottom:0;
 	text-align:left;
 	padding:10px;
-	background:rgba(0, 0, 0, 0);
+	background:#222c3573;
     text-shadow:none;
     width: 720px;
     height: 120px;
+}
+
+#myCarousel .carousel-caption h4{
+    color: #222c35;
 }
 
 #myCarousel .list-group {
@@ -163,7 +178,9 @@ main h1{
     background: #222C35;
     border:1px solid #9D8C7B;
     height: 20%;
+    font-weight: bold;
 }
+
 #myCarousel .list-group .active {
 	background:#171e24;	
 }
@@ -182,7 +199,68 @@ main h1{
 	.carousel-caption p,
 	#myCarousel .list-group {display:none;} 
 }
+.checked {
+    color: orange;
+  }
 
 /* Carrosel de Lançamentos */
+
+/*Em destaque*/
+
+div#destaque{
+    padding-bottom: 40px;
+    border-bottom: 2px solid #FFC293;
+}
+div#caixa-selecao{
+    float: right;
+    padding: 55px 0px 0px 40px;
+    margin-right: 70px;
+}
+div#caixa-selecao select{
+    width: 180px;
+    height: 30px;
+    text-indent: 6px;
+    color: #222C35;
+    border-radius: 5px;
+
+}
+
+div#caixa-selecao label{
+    color: #F6F7EB;
+}
+
+div#destaque h1{
+    float: left;
+    text-align: left;
+    padding: 20px 0px 40px 52px;
+}
+
+div#destaque div#img-destaque{
+    clear: both;
+}
+div#destaque span img{
+    padding-left: 52px;
+    height: 300px;
+    width: 250px;
+}
+
+div#destaque #carrega-filmes{
+    margin-top: 25px;
+    width: 220px;
+    margin-left: 850px;
+    
+}
+
+div#destaque #carrega-filmes button{
+    background: #222C35;
+    color: #FFC293;
+    font-weight: bolder;
+    border: 1px solid #FFC293;
+    border-radius: 5px;
+    padding: 5px;
+    
+}
+
+
 
 /* Main */
