@@ -158,8 +158,14 @@ main h1{
     height: 120px;
 }
 
-#myCarousel .carousel-caption h4{
-    color: #222c35;
+#myCarousel .carousel-caption h4 a{
+    color: #0D4CC6;
+    font-weight: bold;
+}
+
+#myCarousel .carousel-caption p{
+    color: #F6F7EB;
+    
 }
 
 #myCarousel .list-group {
@@ -222,6 +228,7 @@ div#caixa-selecao select{
     text-indent: 6px;
     color: #222C35;
     border-radius: 5px;
+    background: #F6F7EB;
 
 }
 
@@ -260,6 +267,82 @@ div#destaque #carrega-filmes button{
     padding: 5px;
     
 }
+/* Em Destaque */
+
+/* Ultimas Avaliações */
+
+
+div#ultimas-avaliacoes h1{
+    text-align: left;
+    margin-left: 52px;
+}
+div#ultimas-avaliacoes div{
+    background: #F6F7EB;
+    width: 300px;
+    height: 300px;
+    margin: 20px 30px 40px 0;
+    float: left;
+    border-right: 5px solid #171e24;
+    border-bottom: 5px solid #171e24;
+}
+
+div#ultimas-avaliacoes h4{
+    float: right;
+    margin: 35px 40px 0 0;
+    font-weight: bolder;
+    color: #222C35;
+
+}
+
+div#ultimas-avaliacoes div#avaliacao1{
+    margin-left: 52px;
+}
+div#ultimas-avaliacoes img{
+    width: 60px;
+    margin: 15px;
+}
+
+
+div#ultimas-avaliacoes{
+    height: 520px;
+    border-bottom: 2px solid #FFC293;
+
+}
+div#ultimas-avaliacoes #carrega-avaliacoes{
+    margin-top: 0px;
+    height: 25px;
+    width: 200px;
+    margin-left: 818px;
+    background: none;
+    border: none;
+    
+}
+
+div#ultimas-avaliacoes #carrega-avaliacoes button{
+    background: #222C35;
+    color: #FFC293;
+    font-weight: bolder;
+    border: 1px solid #FFC293;
+    border-radius: 5px;
+    padding: 5px;
+    
+}
+
+div#ultimas-avaliacoes div p, div#ultimas-avaliacoes div.rating{
+    margin-left: 90px;
+    background: none;
+    border: none;
+}
+div#ultimas-avaliacoes div p span, div#ultimas-avaliacoes div.rating span{
+    font-weight: bolder;
+}
+
+div#ultimas-avaliacoes div p{
+    margin-right: 30px;
+}
+
+
+
 
 
 
