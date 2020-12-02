@@ -127,14 +127,17 @@ header li a{
 
 main h1{
     text-align: center;
-    padding: 20px 0 15px 0;
+    padding: 20px 0 40px 0;
     color: #FFC293;
     font-weight: bold;
 }
 
+div h1.titulo-secao, div h2.titulo-secao{
+    text-align: left;
+    padding: 20px 0px 40px 52px;
+}
+
 /* Carrosel de Lançamentos */
-
-
 
 #lançamentos{
     clear: both;
@@ -184,7 +187,7 @@ main h1{
 	border-radius:0px;
     cursor:pointer;
     background: #222C35;
-    border:1px solid #9D8C7B;
+    border: 1px solid #FFC293;
     height: 20%;
     font-weight: bold;
 }
@@ -215,13 +218,17 @@ main h1{
 
 /*Em destaque*/
 
+#destaque h1.titulo-secao{
+    float: left;
+}
+
 div#destaque{
     padding-bottom: 40px;
     border-bottom: 2px solid #FFC293;
 }
 div#caixa-selecao{
     float: right;
-    padding: 55px 0px 0px 40px;
+    padding: 45px 0px 40px 40px;
     margin-right: 70px;
 }
 div#caixa-selecao select{
@@ -231,17 +238,10 @@ div#caixa-selecao select{
     color: #222C35;
     border-radius: 5px;
     background: #F6F7EB;
-
 }
 
 div#caixa-selecao label{
     color: #F6F7EB;
-}
-
-div#destaque h1{
-    float: left;
-    text-align: left;
-    padding: 20px 0px 40px 52px;
 }
 
 div#destaque div#img-destaque{
@@ -273,11 +273,6 @@ div#destaque #carrega-filmes button{
 
 /* Ultimas Avaliações */
 
-
-div#ultimas-avaliacoes h1{
-    text-align: left;
-    margin-left: 52px;
-}
 div#ultimas-avaliacoes div{
     background: #F6F7EB;
     width: 300px;
@@ -303,10 +298,8 @@ div#ultimas-avaliacoes img{
     width: 60px;
     margin: 15px;
 }
-
-
 div#ultimas-avaliacoes{
-    height: 520px;
+    height: 540px;
     border-bottom: 2px solid #FFC293;
 
 }
@@ -343,9 +336,115 @@ div#ultimas-avaliacoes div p{
     margin-right: 30px;
 }
 
+/* Entrevistas e Making Ofs */
+#entrevistas{
+    height: 430px;
+    border-bottom: 2px solid #FFC293;
+}
 
+#entrevistas div{
+   float: left;
+   width: 340px;
+   margin: 20px 0px 0px 0;
+   color: #F6F7EB;
+}
+#entrevistas div#entrevista1{
+    margin-left: 52px;
+ }
 
+span.negrito{
+    font-weight: bolder;
+}
 
+/* Entrevistas e Making Ofs */
 
+/* Final */
+#final{
+    border-bottom: 2px solid #FFC293;
+    height: 590px;
+}
+
+#final div{
+    float: left;
+    margin-bottom: 40px;
+}
+#final div#novidades{
+    width: 800px;
+}
+#final div#sobre{
+    width: 220px;
+}
+
+#sobre h1, h2{
+    padding: 20px 0 10px 0;
+    margin-left: 0px;
+}
+
+#sobre p, #sobre h5, #novidades p{
+    color: #F6F7EB;
+}
+
+#sobre img{
+    width: 20px;
+    float: left;
+}
+
+#sobre span h5{
+    width: 200px;
+    padding: 3px 3px 3px 25px;
+}
+
+#sobre h3, #novidades h3{
+    color: #FFC293;
+    font-weight: bolder;
+}
+
+#sobre img.redes{
+    width: 30px;
+    margin: 5px 37px 0 0 ;
+}
+
+#novidades h1{
+    padding-bottom: 0px;
+}
+#novidades div{
+    margin: 0 0 5px 52px;
+    width: 700px;
+    border-bottom: 2px solid #FFC293;
+    padding: 0 0 9px;
+
+}
+#novidades p{
+    font-size: 0.85em;
+}
+
+#novidades img{
+    float: left;
+    width: 200px;
+    margin: 20px 10px 0 0;
+}
 
 /* Main */
+
+/* Rodape */
+
+#rodape{
+    margin-top: 40px;
+}
+
+#rodape h4{
+    color: #F6F7EB;
+    width: 650px;
+    margin-left: 52px;
+    float: left;
+    font-size: 1.0em;
+}
+
+#rodape img{
+    width: 120px;
+    float: right;
+    margin: -15px 20px 0 0;
+}
+
+/* Rodape */
+
