@@ -61,6 +61,7 @@ header li a{
     background: #FFC293;
     color: #222C35;
     border: #222C35;
+    font-weight: bold;
 }
 
 .searchbar button:hover, .searchbar button:focus{
